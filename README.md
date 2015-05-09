@@ -25,7 +25,7 @@ var MAX_UINT16 = require( 'compute-const-max-uint16' );
 Maximum unsigned 16-bit integer.
 
 ``` javascript
-MAX_UINT16 === Math.pow( 2, 16 ) -1;
+MAX_UINT16 === Math.pow( 2, 16 ) - 1;
 ```
 
 
