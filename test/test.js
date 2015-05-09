@@ -7,7 +7,7 @@ var // Expectation library:
 	chai = require( 'chai' ),
 
 	// Module to be tested:
-	lib = require( './../lib' );
+	CONST = require( './../lib' );
 
 
 // VARIABLES //
@@ -20,10 +20,12 @@ var expect = chai.expect,
 
 describe( 'compute-const-max-uint16', function tests() {
 
-	it( 'should export a function', function test() {
-		expect( lib ).to.be.a( 'function' );
+	it( 'should export a number', function test() {
+		expect( CONST ).to.be.a( 'number' );
 	});
 
-	it( 'should do something' );
+	it( 'should equal 65535', function test() {
+		assert.strictEqual( CONST, Math.pow( 2, 16 ) - 1 );
+	});
 
 });

@@ -1,4 +1,4 @@
-const-max-uint16
+Max Uint16
 ===
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage Status][coveralls-image]][coveralls-url] [![Dependencies][dependencies-image]][dependencies-url]
 
@@ -17,18 +17,25 @@ For use in the browser, use [browserify](https://github.com/substack/node-browse
 ## Usage
 
 ``` javascript
-var foo = require( 'compute-const-max-uint16' );
+var MAX_UINT16 = require( 'compute-const-max-uint16' );
 ```
 
-#### foo( arr )
+#### MAX_UINT16
 
-What does this function do?
+Maximum unsigned 16-bit integer.
+
+``` javascript
+MAX_UINT16 === Math.pow( 2, 16 ) -1;
+```
 
 
 ## Examples
 
 ``` javascript
-var foo = require( 'compute-const-max-uint16' );
+var MAX_UINT16 = require( 'compute-const-max-uint16' );
+
+console.log( MAX_UINT16 );
+// returns 65535
 ```
 
 To run the example code from the top-level application directory,
