@@ -1,5 +1,5 @@
 {
-  "name": "compute-const-max-uint16",
+  "name": "const-max-uint16",
   "version": "1.0.1",
   "description": "Maximum unsigned 16-bit integer.",
   "author": {
